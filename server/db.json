@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "product_name": "Product_1",
+            "unit_price": 100,
+            "quantity": 1000
+        },
+        {
+            "id": 2,
+            "product_name": "Product_2",
+            "unit_price": 200,
+            "quantity": 500
+        }
+    ],
+ 
+    "orders": [
+        {
+            "id": 1,
+            "order_date": "Date_1",
+            "total_order_price": 1000,
+            "amount_per_order_line": [400,600]
+        },
+        {
+            "id": 2,
+            "order_date": "Date_2",
+            "total_order_price": 2000,
+            "amount_per_order_line": [0,2000]
+        }
+    ]
+ }
+ 
